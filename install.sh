@@ -1,3 +1,5 @@
+curl -L http://install.ohmyz.sh | sh
+
 if uname | grep -q Darwin
 then
   mv -f ~/.vimrc ~/.vimrc.old;
@@ -14,8 +16,6 @@ then
   cp -f ./.zshrc_linux ~/.zshrc;
 fi
 
-# zsh config
-curl -L http://install.ohmyz.sh | sh
 source ~/.zshrc
 
 # vim config
