@@ -16,6 +16,7 @@ then
   cp -f ./.zshrc_linux ~/.zshrc;
 fi
 
+cp -f ./.tmux.conf ~/.tmux.conf
 source ~/.zshrc
 
 # vim config
